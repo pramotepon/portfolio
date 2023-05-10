@@ -15,8 +15,15 @@ export default {
     },
     translate: {
       'm-50': '-50%',
+    }, 
+    dropShadow: {
+      'title-shadow': '0 5px 5px rgba(0, 255, 255, 1)',
     },
-    extend: {},
+    extend: {
+      spacing: {
+        'half': '50vh',
+      },
+    },
   },
   plugins: [],
 }

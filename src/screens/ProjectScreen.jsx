@@ -3,7 +3,7 @@ import ScreenLayout from '../layouts/ScreenLayout'
 
 const ProjectScreen = () => {
   return (
-    <ScreenLayout>
+    <ScreenLayout title={'Projects'}>
       <div>
         <h1>Project</h1>
       </div>

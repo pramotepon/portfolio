@@ -5,7 +5,7 @@ const Navbar = () => {
     const classActive = 'block h-full pt-7 bg-quaternary';
     const classNoActive = 'block h-full pt-7 transition-all duration-300 hover:bg-quaternary';
     return (
-        <nav className='bg-black fixed left-1/2 transform translate-x-m-50 top-16 w-9/12 h-20 border-2 border-tertiary'>
+        <nav className='bg-black fixed left-1/2 transform translate-x-m-50 top-16 w-9/12 h-20 border-2 border-tertiary z-50'>
             <ul className='text-white flex flex-wrap justify-around h-full text-center items-center'>
                 <li className='grow h-full'>
                     <NavLink to={'/'} className={({ isActive }) =>

@@ -3,7 +3,7 @@ import ScreenLayout from '../layouts/ScreenLayout'
 
 const SkillScreen = () => {
   return (
-    <ScreenLayout>
+    <ScreenLayout title={'Skills'}>
       <div>
         <h1>Skill</h1>
       </div>
