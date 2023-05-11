@@ -1,18 +1,20 @@
 import React from 'react'
 
-const CompanyCard = ({ corp }) => {
+const CompanyCard = ({ corp, onClickHandler, jobDetailId }) => {
+
+    const defaultClass = "border-2 border-tertiary w-full py-2 text-left pl-2 text-white mt-5";
+
     const showCompanyList = (company) => {
+
+        let className = jobDetailId === company.id ? defaultClass + ' bg-quaternary' : defaultClass;
+
         return (
-            <button className='border-2 border-tertiary w-full py-2 text-left pl-2 text-white mt-5' key={company.id}>
+            <button className={className} key={company.id} onClick={() => onClickHandler(company.id)} >
                 <span className='text-1xl'>{company.name}</span>
             </button>
         );
     };
-    return (
-        <div>
-            {corp.map(showCompanyList)}
-        </div>
-    )
+    return corp.map(showCompanyList);
 };
 
 export default CompanyCard

@@ -1,0 +1,31 @@
+/* 
+--primary: "#0D0D0D";
+--secondary: "#099FFF";
+--tertiary: "#00FFFF";
+--quaternary: "#0033FF";
+--black: "#000000";
+--white: "#ffffff"; 
+*/
+.overflow-box::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: none;
+  border-radius: 10px;
+}
+
+.overflow-box::-webkit-scrollbar {
+  width: 10px;
+  background-color: none;
+}
+
+.overflow-box::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #00FFFF;
+  /* background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(0, 255, 255)),
+    color-stop(0.72, rgb(9, 159, 255)),
+    color-stop(0.86, rgb(0, 51, 255))
+  ); */
+}
