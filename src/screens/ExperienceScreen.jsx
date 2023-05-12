@@ -30,7 +30,7 @@ const ExperienceScreen = () => {
           <div className='w-3/12 h-full border-2 border-tertiary items-stretch px-5 overflow-auto overflow-box'>
             <CompanyCard corp={corp} onClickHandler={onClickHandler} jobDetailId={detail.id} />
           </div>
-          <div className='w-8/12 h-full border-2 border-tertiary items-stretch overflow-auto overflow-box'>
+          <div className='w-8/12 h-full border-t-2 border-l-2 border-tertiary items-stretch overflow-auto overflow-box'>
             <JobDetailCard detail={detail} />
           </div>
         </div>
