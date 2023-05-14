@@ -1,7 +1,6 @@
 import React from 'react'
 import ScreenLayout from '../layouts/ScreenLayout'
 import '../assets/css/screens/skillScreen.css'
-
 const SkillScreen = () => {
 
   return (
