@@ -13,10 +13,14 @@ const AboutMeScreen = () => {
             <div className='h-full my-auto'>
               <h2 className='text-tertiary text-6xl mt-16 drop-shadow-title-shadow'>About me</h2>
               <p className='text-3xl mt-16 text-secondary'>
-                Lorem ipsum dolor sit amet <span className='text-tertiary'>consectetur</span> adipisicing elit. Cupiditate culpa vitae reprehenderit dicta sunt,
-                dolorum nobis nam cum ratione laudantium <span className='text-tertiary'>consectetur</span> cumque sed, ea similique earum! Ipsa possimus rem numquam.
-                Lorem ipsum dolor sit amet <span className='text-tertiary'>consectetur</span> adipisicing elit. Cupiditate culpa vitae reprehenderit dicta sunt,
-                dolorum nobis nam cum ratione laudantium <span className='text-tertiary'>consectetur</span> cumque sed, ea similique earum! Ipsa possimus rem numquam.
+                As a <span className='text-tertiary drop-shadow-title-shadow'>Growth-minded</span> Web Developer with 3+ years of experience in
+                <span className='text-tertiary drop-shadow-title-shadow'>PHP</span>, <span className='text-tertiary drop-shadow-title-shadow'>HTML</span>,
+                <span className='text-tertiary drop-shadow-title-shadow'>CSS</span>, and <span className='text-tertiary drop-shadow-title-shadow'>SQL</span>,
+                I am dedicated to <span className='text-tertiary drop-shadow-title-shadow'>continuously expanding my skills and knowledge</span>.
+                I recently graduated from JSD4 with expertise in <span className='text-tertiary drop-shadow-title-shadow'>MERN Stack</span> technology,
+                and I am excited to apply this knowledge to new projects. I am a team leader and team player with excellent 
+                <span className='text-tertiary drop-shadow-title-shadow'> communication</span> and <span className='text-tertiary drop-shadow-title-shadow'>collaboration</span> skills,
+                committed to delivering high-quality work that exceeds expectations.
               </p>
             </div>
           </div>

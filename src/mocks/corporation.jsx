@@ -5,7 +5,7 @@ const corp = [
     },
     {
         id: 2,
-        name: "AMI AsianCodingSystem Group",
+        name: "AMI Asian Coding System Group",
     },
     {
         id: 3,
