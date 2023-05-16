@@ -33,7 +33,7 @@ const Navbar = () => {
                     }>Projects</NavLink>
                 </li>
                 <li className='grow h-full p-2'>
-                    <NavLink to={'/'} className='block h-full pt-4 border-2 border-secondary'>Resume</NavLink>
+                    <a href='/resume/Resume-Pramote-Phanon.pdf' target='_BLANK' className='block h-full pt-4 border-2 border-secondary transition-all duration-300 hover:bg-quaternary'>Resume</a>
                 </li>
             </ul>
         </nav>
