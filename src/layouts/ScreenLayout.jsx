@@ -13,7 +13,7 @@ const ScreenLayout = ({ children, title }) => {
         <div className='bg-primary min-h-screen'>
             <Navbar />
             <ContactBar />
-            <div className='w-10/12 mx-auto min-h-screen z-40'>
+            <div className='lg:w-10/12 md:w-8/12 w-11/12 mx-auto min-h-screen z-40'>
                 {children}
             </div>
         </div>
