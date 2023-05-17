@@ -11,7 +11,8 @@ export default {
       tertiary: '#00FFFF',
       quaternary: '#0033FF',
       black: '#000000',
-      white: '#ffffff'
+      white: '#ffffff',
+      none: 'transparent'
     },
     translate: {
       'm-50': '-50%',

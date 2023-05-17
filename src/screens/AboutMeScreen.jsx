@@ -5,14 +5,14 @@ const AboutMeScreen = () => {
   return (
     <ScreenLayout title={'About me'}>
       <div className='flex min-h-screen'>
-        <div className='my-auto flex w-full'>
-          <div className='flex-auto w-10'>
-            <img src={window.location.origin + '/images/pramote-image.png'} className='w-full' />
+        <div className='my-auto flex items-center lg:flex-row flex-col w-full lg:mt-auto md:mt-48 mt-28'>
+          <div className='flex-auto w-auto lg:w-10'>
+            <img src={window.location.origin + '/images/pramote-image.png'} className='lg:w-10/12 w-60 mx-auto' />
           </div>
-          <div className='flex-auto w-64 pl-20'>
+          <div className='flex-auto w-auto lg:w-64 lg:pl-20'>
             <div className='h-full my-auto'>
               <h2 className='text-tertiary text-6xl mt-16 drop-shadow-title-shadow'>About me</h2>
-              <p className='text-3xl mt-16 text-secondary'>
+              <p className='lg:text-3xl text-xl sm:mt-16 mt-0 text-secondary'>
                 As a <span className='text-tertiary drop-shadow-title-shadow'>Growth-minded</span> Web Developer with 3+ years of experience in
                 <span className='text-tertiary drop-shadow-title-shadow'>PHP</span>, <span className='text-tertiary drop-shadow-title-shadow'>HTML</span>,
                 <span className='text-tertiary drop-shadow-title-shadow'>CSS</span>, and <span className='text-tertiary drop-shadow-title-shadow'>SQL</span>,
