@@ -1,7 +1,6 @@
 import React from 'react'
 
 const JobDetailCard = (props) => {
-    console.log(props.detail);
     return (
         <div className='p-5 text-secondary'>
             <h3 className='text-4xl'>{props.detail.position}</h3>
