@@ -4,7 +4,7 @@ import ScreenLayout from '../layouts/ScreenLayout'
 const AboutMeScreen = () => {
   return (
     <ScreenLayout title={'About me'}>
-      <div className='flex min-h-screen'>
+      <div className='flex min-h-screen md:pb-0 pb-24'>
         <div className='my-auto flex items-center lg:flex-row flex-col w-full lg:mt-auto md:mt-48 mt-28'>
           <div className='flex-auto w-auto lg:w-10'>
             <img src={window.location.origin + '/images/pramote-image.png'} className='lg:w-10/12 w-60 mx-auto' />

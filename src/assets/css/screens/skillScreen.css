@@ -1,5 +1,10 @@
-.svg-style{
-    width: 100px;
-    height: 100px;
-    margin-top: 25px;
+.svg-style {
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .svg-style {
+    height: fit-content;
+  }
 }

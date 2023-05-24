@@ -1,0 +1,50 @@
+.project-text-block {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.project-image {
+}
+.project-text-container {
+}
+.link-block {
+}
+@media only screen and (max-width: 1600px) {
+  .project-image {
+    min-height: 25rem;
+  }
+  .project-text-container {
+    min-height: 20rem;
+  }
+  .link-block {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1210px) {
+  .project-image {
+    width: 100%;
+    min-height: 30rem;
+  }
+  .project-image div {
+    left: 0;
+  }
+  .project-text-container {
+    width: 100%;
+    top: 0;
+    min-height: 25rem;
+  }
+  .project-text-container .project-text-block {
+    right: 0;
+  }
+  .link-block {
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .project-image{
+    min-height: 25rem;
+    margin: 0;
+  }
+  .project-text-container {
+    position: absolute;
+    margin: 0;
+  }
+}
