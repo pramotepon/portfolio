@@ -24,6 +24,9 @@ export default {
       spacing: {
         'half': '50vh',
       },
+      padding: {
+        '044rem': '0.44rem',
+      }
     },
   },
   plugins: [],
