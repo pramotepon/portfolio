@@ -35,7 +35,7 @@ const ExperienceScreen = () => {
   }, [detail]);
   return (
     <ScreenLayout title={'Experiences'}>
-      <div className='min-h-screen'>
+      <div className='min-h-screen md:pb-0 pb-24'>
         <h2 className='text-tertiary text-6xl pt-44 text-center drop-shadow-title-shadow'>Experiences</h2>
         <div className='my-auto flex flex-col lg:flex-row w-full mt-12 min-h-full justify-between h-half'>
           <div className='lg:w-3/12 w-full lg:h-full h-24 border-2 border-tertiary items-stretch px-5 lg:overflow-auto overflow-hidden overflow-box hidden lg:block'>

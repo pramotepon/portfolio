@@ -3,6 +3,30 @@
 * {
   font-family: "Share Tech", sans-serif;
 }
+html,
+body {
+  cursor: url("../public/images/mouse/icons8-cursor-48.png") 15 15, auto;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+ 
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #00FFFF; 
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #0033FF; 
+}
 
 @tailwind base;
 @tailwind components;
