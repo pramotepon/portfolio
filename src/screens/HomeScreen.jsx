@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import ScreenLayout from '../layouts/ScreenLayout'
+import { TypeAnimation } from 'react-type-animation';
 
-const HomeScreen = () => { 
+const HomeScreen = () => {
   return (
     <ScreenLayout title={'Home'}>
       <div className='flex min-h-screen'>
-        <div className='my-auto text-6xl sm:text-8xl md:text-9xl'>
-          <h1 className='text-tertiary'>I am</h1>
-          <h1 className='text-tertiary'>Full Stack</h1>
-          <h1 className='text-tertiary'>Web Developer</h1>
+        <div className='my-auto text-6xl sm:text-8xl md:text-9xl text-tertiary'>
+          <TypeAnimation
+            style={{ whiteSpace: 'pre-line', display: 'block' }}
+            sequence={[
+              `I am\nFull Stack\nWeb Developer`,
+            ]}
+          />
         </div>
       </div>
     </ScreenLayout>
