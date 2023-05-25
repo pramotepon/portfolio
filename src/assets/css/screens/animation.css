@@ -8,24 +8,34 @@
 
 @keyframes neon-swip {
   0% {
-    -webkit-text-stroke: 1px #00ffff; /* width and color */
-    text-shadow: 0 0 35px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1);
-    color: rgba(0, 255, 255, 0);
-  }
-  15% {
-    -webkit-text-stroke: 1px #00ffff; /* width and color */
-    text-shadow: 0 0 35px rgba(0, 255, 255, 0), 0 0 30px rgba(0, 255, 255, 0);
-    color: rgba(0, 255, 255, 0.2);
-  }
-  25% {
     -webkit-text-stroke: 1px white; /* width and color */
     text-shadow: 0 0 35px rgba(0, 255, 255, 0), 0 0 30px rgba(0, 255, 255, 0);
     color: rgba(0, 255, 255, 0);
   }
-  35% {
+  5% {
     -webkit-text-stroke: 1px #00ffff; /* width and color */
     text-shadow: 0 0 35px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1);
-    color: rgba(0, 255, 255, 0.5);
+    color: rgba(0, 255, 255, 0);
+  }
+  10% {
+    -webkit-text-stroke: 1px white; /* width and color */
+    text-shadow: 0 0 35px rgba(0, 255, 255, 0), 0 0 30px rgba(0, 255, 255, 0);
+    color: rgba(0, 255, 255, 0);
+  }
+  20% {
+    -webkit-text-stroke: 1px #00ffff; /* width and color */
+    text-shadow: 0 0 35px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1);
+    color: rgba(0, 255, 255, 1);
+  }
+  30% {
+    -webkit-text-stroke: 1px white; /* width and color */
+    text-shadow: 0 0 35px rgba(0, 255, 255, 0), 0 0 30px rgba(0, 255, 255, 0);
+    color: rgba(0, 255, 255, 0);
+  }
+  40% {
+    -webkit-text-stroke: 1px #00ffff; /* width and color */
+    text-shadow: 0 0 35px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1);
+    color: rgba(0, 255, 255, 0);
   }
   50% {
     -webkit-text-stroke: 1px white; /* width and color */
@@ -38,9 +48,9 @@
     color: rgba(0, 255, 255, 1);
   }
   80% {
-    -webkit-text-stroke: 1px white; /* width and color */
-    text-shadow: 0 0 35px rgba(0, 255, 255, 0), 0 0 30px rgba(0, 255, 255, 0);
-    color: rgba(0, 255, 255, 0);
+    -webkit-text-stroke: 1px #00ffff; /* width and color */
+    text-shadow: 0 0 35px rgba(0, 255, 255, 1), 0 0 30px rgba(0, 255, 255, 1);
+    color: rgba(0, 255, 255, 1);
   }
   100% {
     -webkit-text-stroke: 1px #00ffff; /* width and color */
